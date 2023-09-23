@@ -1,0 +1,22 @@
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/5d0jwe45834b1.webp);
+  background-size: cover;
+  
+}
+  
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url(../img/1080p-HD-Image-Nature-Desktop.jpg);
+    
+}
+

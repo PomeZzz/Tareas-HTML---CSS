@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Comentarios de Productos</h1>
+	<form action="#" method="post">
+		<label for="producto">Producto:</label>
+		<select id="producto" name="producto">
+			<option value="producto1">Producto 1</option>
+			<option value="producto2">Producto 2</option>
+			<option value="producto3">Producto 3</option>
+			<option value="producto4">Producto 4</option>
+		</select><br><br>
+        <label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" required><br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+
+		<label for="telefono">Teléfono:</label>
+		<input type="tel" id="telefono" name="telefono"><br><br>
+
+		<label for="genero">Género:</label>
+		<input type="radio" id="generoHombre" name="genero" value="hombre">
+		<label for="generoHombre">Hombre</label>
+		<input type="radio" id="generoMujer" name="genero" value="mujer">
+		<label for="generoMujer">Mujer</label><br><br>
+
+		<label for="fechaCompra">Fecha de Compra:</label>
+		<input type="date" id="fechaCompra" name="fechaCompra"><br><br>
+
+		<label for="calificacion">Calificación:</label>
+		<select id="calificacion" name="calificacion">
+			<option value="1">1 Estrella</option>
+			<option value="2">2 Estrellas</option>
+			<option value="3">3 Estrellas</option>
+			<option value="4">4 Estrellas</option>
+			<option value="5">5 Estrellas</option>
+		</select><br><br>
+
+		<label for="comentario">Comentario:</label><br>
+		<textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
+
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Reset">
+	</form>
+</body>
+</html>
+

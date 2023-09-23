@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Navegación */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    padding: 0.5rem 0;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Bloque con outline */
+  main section {
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px solid #ddd;
+    outline: 4px solid #3498db;
+  }
+  
+  /* Scroll suave */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Puntero personalizado */
+  body {
+    cursor: url('cursor.png'), auto;
+  }
+
+  /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Navegación */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    padding: 0.5rem 0;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Cursor predefinido para enlaces */
+  a {
+    cursor:grab;
+  }
+  
+  /* Scroll suave */
+  html {
+    scroll-behavior: smooth;
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario 1</h1>
+    <form name="Formulario"action="contacto.php" method="get">
+        <label for="nombre">Nombre y Apellido</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" autocomplete="false"><br><br>
+
+        <label for="gmail">Gmail</label>
+        <input type="email" name="gmail" id="gamil" placeholder="Gmail" autocomplete="false"><br><br>
+
+
+        <label for="celular">Celular</label>
+        <input type="tel" name="celular" id="celular" placeholder="Celular" autocomplete="false"><br><br>
+        
+
+        <label for="comentario">Comentario:</label><br>
+	    <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
+
+	    <input type="submit" value="Enviar">
+	    <input type="reset" value="Limpiar">
+    </form>
+    
+</body>
+</html>

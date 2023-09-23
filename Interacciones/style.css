@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+
+html{
+    cursor: crosshair;
+    scroll-behavior: smooth;
+}
+
+a{
+    cursor: not-allowed;
+}
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:url(../Interacciones/PErritoWarden.jpg),auto;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+p{
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px solid #ddd;
+    outline: 4px solid #d23480;
+}
+
+.wrapper {
+    display: flex;
+}
+  
+.wrapper input[type="text"] {
+    flex: 1 1 auto; 
+}
+  

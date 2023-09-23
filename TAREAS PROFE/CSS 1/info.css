@@ -1,0 +1,32 @@
+p {
+    color: tomato;
+}
+
+.parrafo_rojo{
+    background-color: red;
+}
+
+#parrafo_negro
+{
+    color: white;
+    background-color: black;
+}
+
+div p{
+    color: tomato;
+}
+
+a:active{
+    background-color: aqua;
+}
+
+
+.padre{
+    color: rosybrown;
+    border: red solida;
+}
+
+.hijo{
+    color: inherit;
+    border: inherit ;
+}

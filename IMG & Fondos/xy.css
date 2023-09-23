@@ -1,0 +1,7 @@
+body{
+    background-image: url(../img/PErritoWarden.jpg), url(../img/PErritoWarden.jpg);
+    background-repeat: repeat-x, repeat-y;
+    background-size: 90px;
+    position: absolute;
+  
+}

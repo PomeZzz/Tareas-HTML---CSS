@@ -1,0 +1,68 @@
+.papa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+div div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hijo1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(20, 134, 215);
+    margin: 10px;
+    border-radius: 25px;
+    
+}
+
+.hijo2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(185, 25, 145);
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.hijo3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(213, 224, 4);
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.hijo4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(13, 178, 21);
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+.hijo5{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(217, 28, 28);
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.hijo6{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(58, 127, 201);
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+}

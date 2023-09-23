@@ -1,0 +1,41 @@
+body {
+    background-color: bisque;
+}
+
+.class{
+    color: rgb(32, 43, 32);
+    background-color: rgba(43, 32, 54, 0.5);
+}
+
+#Agua{
+    background-color: aquamarine;
+}
+
+#parrafo_negro{
+    color: aquamarine;
+    background-color: black;
+}
+
+#Dioxido_de_Carbono{
+    color: aquamarine;
+    background-color: black;
+}
+
+.Padre {
+    color: green;           
+    border: 2px solid red;  
+  }
+
+.Hijo{
+    border: inherit;
+}
+
+.Titulo2{
+    background-color: blue;
+    color: black;
+}
+
+#Titulo{
+    text-align: center;
+    
+}

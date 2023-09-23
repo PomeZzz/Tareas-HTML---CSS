@@ -1,0 +1,36 @@
+body{
+    background-color:aqua
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+div div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color:cadetblue;
+}
+
+h3,h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(2, 99, 128);
+}
+
+.img    {
+    grid-column:  span 2 / span 2;
+    grid-row:  span 2 / span 2;
+}
+
+header, footer {
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px;
+}
+
